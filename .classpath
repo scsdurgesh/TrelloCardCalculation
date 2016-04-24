@@ -13,5 +13,8 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="H:/trello/gson-2.2.2.jar/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="H:/trello/hamcrest-core-1.2.jar/hamcrest-core-1.2.jar"/>
+	<classpathentry kind="lib" path="H:/trello/junit-4.8.1.jar/junit-4.8.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

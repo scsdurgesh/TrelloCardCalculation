@@ -20,8 +20,17 @@ public class Card extends TrelloObject {
 	private List<Label> labels;
 	private String url;
 	private double pos;
+	private String dateLastActivity;
 
-    public String getName() {
+    public String getDateLastActivity() {
+		return dateLastActivity;
+	}
+
+	public void setDateLastActivity(String dateLastActivity) {
+		this.dateLastActivity = dateLastActivity;
+	}
+
+	public String getName() {
 		return name;
 	}
 

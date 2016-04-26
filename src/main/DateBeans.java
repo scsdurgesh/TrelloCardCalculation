@@ -35,4 +35,10 @@ public class DateBeans {
 	public void setDiffSec(long diffSec) {
 		this.diffSec = diffSec;
 	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return diffDays+" Days "+diffHour+" Hours "+diffMin+" Minuts "+diffSec+" Seconds.";
+		
+	}
 }

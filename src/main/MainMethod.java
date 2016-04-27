@@ -12,7 +12,7 @@ import org.trello4j.model.Card;
 
 public class MainMethod {
 
-	public static void main(String[] args) {
+	public ArrayList<Details> getDetails(String key,String token,String boardId) {
 
 		Trello trello = new TrelloImpl("3d8097336659354b2b057ae281064004",
 				"9f76b28622d45f8b00f6e0b6a59e8a999e0b62172363725ea13347bb8d42adc5");
@@ -59,6 +59,7 @@ public class MainMethod {
 			detailList.add(det);
 		}
 		printList(detailList);
+		return detailList;
 	}
 
 	private static void printList(ArrayList<Details> detailList) {

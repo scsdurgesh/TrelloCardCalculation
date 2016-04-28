@@ -4,6 +4,14 @@ public class DateBeans {
 
 	long diffDays, diffHour, diffMin, diffSec;
 
+	public DateBeans() {
+		// TODO Auto-generated constructor stub
+		
+		setDiffDays(0);
+		setDiffHour(0);
+		setDiffMin(0);
+		setDiffSec(0);
+	}
 	public long getDiffDays() {
 		return diffDays;
 	}
@@ -38,7 +46,7 @@ public class DateBeans {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return diffDays+" Days "+diffHour+" Hours "+diffMin+" Minuts "+diffSec+" Seconds.";
+		return diffDays+" Days "+diffHour+" Hours "+diffMin+" Minutes "+diffSec+" Seconds.";
 		
 	}
 }

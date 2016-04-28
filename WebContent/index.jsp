@@ -25,13 +25,16 @@
 	<center>
 		<div class="bodi">
 			<div class="tableDiv">
+			<p class="text"><span class="bolds">Trello API</span></p>
+			<p class="text"><span class="bolds">Time Calculation from "In Progress" to "Done"</span></p>
+			</div>
+			<div class="tableDiv">
 				<%
 				try
 				{
 					String btsubmit = request.getParameter("submit");
-						String key = "";
 						if (btsubmit != null) {
-					key = (String) request.getParameter("key");
+					String key = (String) request.getParameter("key");
 					String token = request.getParameter("token");
 					String board = request.getParameter("board");
 					MainMethod method=new MainMethod();
